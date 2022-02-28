@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        registry = 'sreeharshav/rtcprod'
+        registry = 'ravitejachowdary/rtcprod'
         registryCredential = 'dockerhub_id'
         devcontext = 'dev-swarm'
         prodcontext = 'prod-swarm'
